@@ -1,0 +1,14 @@
+[project]
+name = "gdg-va-example"
+version = "0.1.0"
+description = "Voice Agent for Weather in Moroccan Darija"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "google-genai>=1.0.0",
+    "livekit>=1.0.17",
+    "livekit-agents[silero,turn-detector]~=1.2",
+    "livekit-plugins-noise-cancellation~=0.2",
+    "livekit-plugins-openai>=1.2.16",
+    "python-dotenv>=1.0.0",
+]
